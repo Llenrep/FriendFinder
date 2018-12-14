@@ -1,0 +1,19 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Dating App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Llenrep/FriendFinder.git"
+  },
+  "author": "Pernell Louis-Pierre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Llenrep/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/Llenrep/FriendFinder#readme"
+}
