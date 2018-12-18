@@ -1,5 +1,4 @@
 var express = require("express"); //using the express package
-var mysql = require("mysql"); //using the mysql package
 var html = require("html");
 var path = require("path");
 
