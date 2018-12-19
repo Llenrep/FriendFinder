@@ -9,7 +9,7 @@ var app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // app.use(express.static('../style/style.css'))
-app.use(express.static(__dirname + '/public'));
+app.use(express.static('public'));
 
 //enables both local and heroku connection
 var PORT = process.env.PORT || 8080;
