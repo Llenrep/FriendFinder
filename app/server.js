@@ -1,5 +1,4 @@
 var express = require("express"); //using the express package
-var html = require("html");
 var path = require("path");
 
 // Tells node that we are creating an "express" server
