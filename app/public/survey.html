@@ -194,6 +194,7 @@
                 </div>
             </div>
         </div>
+        
     </div>
 
     <!-- Scripts-->
@@ -243,18 +244,19 @@
                         ]
                     };
 
-                    $.post("/api/friends.js", Data, function (data) {
+                    $.post("/api/friends", Data, function (data) {
+                        // if (err) throw err
                         $("#match-name").text(data.name);
                         $("match-img").attr("src", data.photo);
 
-                        $("#results-modal").modal("toggle");
+                        $("#results-modal").text("toggle");
                     })
                 } else {
                     alert("Check to see if each field is filled out");
                 }
 
             })//onclick function
-        })
+        })//document on ready function
     </script>
 </body>
 

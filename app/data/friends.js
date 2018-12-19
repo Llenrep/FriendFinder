@@ -81,3 +81,5 @@ Data = [
     },
 
 ]
+
+module.exports = Data;

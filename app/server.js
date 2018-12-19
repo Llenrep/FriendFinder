@@ -8,7 +8,6 @@ var app = express();
 //For Data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-// app.use(express.static('../style/style.css'))
 app.use(express.static('public'));
 
 //enables both local and heroku connection
