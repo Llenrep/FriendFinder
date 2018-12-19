@@ -9,11 +9,12 @@ header {
 }
 
 #submit {
-    
+   margin: 0px 0px 0px 0px; 
 }
 
 .questions {
     border: 2px solid black;
+    margin: 0px 0px 20px 0px; 
     padding: 10px;
     text-shadow: 1px 0px red, 0px 1px blue;
     border-radius: 15px;
